@@ -377,6 +377,11 @@ body {
     outline: none;
 }
 
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+    border-color: #249b60;
+}
 
 .formulario textarea {
     resize: vertical;
